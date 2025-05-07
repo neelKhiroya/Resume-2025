@@ -82,7 +82,7 @@ export default function CoffeeMug() {
             {/* Credit */}
             
                 <motion.p className="text-xs text-center mt-2 text-gray-600 whitespace-nowrap dark:text-gray-100"
-                animate={{ y: isOpen ? 0 : 25 }}>
+                animate={{ y: isOpen ? 0 : 100 }}>
                     Model credit:{" "}
                     <a
                         href="https://free3d.com/3d-model/tea-mug-791329.html"

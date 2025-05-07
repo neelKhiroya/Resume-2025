@@ -94,8 +94,11 @@ const MobileNavBar = () => {
                                 }}
                                 className='flex flex-col items-center justify-between h-full w-full'
                             >
-                                <div className='mt-8 font-bold text-3xl text-black underline dark:text-white'>
-                                    Neel Khiroya
+                                <div className='text-black dark:text-white'>
+                                    <div className='mt-8 font-bold text-3xl'>
+                                        Neel Khiroya
+                                    </div>
+                                    <p className='mt-2'>Dartmouth, NS</p>
                                 </div>
                                 <ul className="flex flex-col gap-6 text-lg text-gray-800 underline dark:text-gray-200">
                                     <li>
@@ -120,6 +123,14 @@ const MobileNavBar = () => {
                                             className="hover:scale-105 transition-transform py-2"
                                         >
                                             Contact
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://drive.google.com/file/d/1XLTa2kekJm1LY1WMpB0bWIleuqBHwXUk/view?usp=sharing"
+                                            className="hover:scale-105 transition-transform py-2"
+                                        >
+                                            Resume
                                         </a>
                                     </li>
                                 </ul>

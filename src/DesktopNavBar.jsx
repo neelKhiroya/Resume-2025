@@ -7,13 +7,13 @@ export default function DesktopNavBar() {
   useEffect(() => {
     const handleMouseMove = (e) => {
       // Only trigger on large screens
-      
-        if (e.clientY < 60) {
-          setShow(true);
-        } else {
-          setShow(false);
-        }
-     
+
+      if (e.clientY < 60) {
+        setShow(true);
+      } else {
+        setShow(false);
+      }
+
     };
 
     window.addEventListener("mousemove", handleMouseMove);
@@ -27,8 +27,9 @@ export default function DesktopNavBar() {
         dark:bg-gray-800 dark:border-gray-700 dark:text-white`}
     >
       <div className="flex justify-between items-center max-w-7xl mx-auto">
-        <div className="font-bold text-lg">Neel Khiroya</div>
+        <div className="font-bold text-lg">Neel Khiroya <span className="text-sm">- Dartmouth, NS</span></div>
         <ul className="flex gap-6 text-sm text-gray-800 dark:text-gray-200">
+          <li><a href="https://drive.google.com/file/d/1XLTa2kekJm1LY1WMpB0bWIleuqBHwXUk/view?usp=sharing" className="hover:underline">Resume</a></li>
           <li><a href="https://github.com/neelKhiroya" className="hover:underline">GitHub</a></li>
           <li><a href="https://www.linkedin.com/in/neel-khiroya-71a177239/" className="hover:underline">LinkedIn</a></li>
           <li><a href="mailto:neel@khiroya.ca" className="hover:underline">Contact</a></li>
