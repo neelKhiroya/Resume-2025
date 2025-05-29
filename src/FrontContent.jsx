@@ -58,9 +58,13 @@ const FrontContent = ({
                     <h3 className='text-sm'>Collaborative drum pattern editor with database integration.</h3>
                     <p className='text-sm'>PostgreSQL, WebSockets, Docker</p>
 
-                    <h2 className='text-lg mt-2'>Discord Bot</h2>
+                    <h2 className='text-lg mt-4'>Discord Bot</h2>
                     <h3 className='text-sm'>A Discord bot that delivers daily weather reports to a server each morning.</h3>
                     <p className='text-sm'>Auth Tokens, Node.js, Cloud Computing</p>
+
+                    <h2 className='text-lg mt-4'>Pi Terminal Calendar Dashboard</h2>
+                    <h3 className='text-sm'>terminal-based dashboard for the Raspberry Pi Zero to display Google Calendar <br/>events, Tasks, and system info with a minimal, real-time interface.</h3>
+                    <p className='text-sm'>Python, Bash, Google APIs, OAuth 2.0</p>
                 </div>
             } />
             <Square title='Skills' showMobile={showMobile} children={
