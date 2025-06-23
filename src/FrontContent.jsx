@@ -9,8 +9,6 @@ const defaultProps = {
     showMobile: false,
 };
 
-
-
 function Square(props) {
     return (
         <div className={

@@ -127,7 +127,7 @@ const MobileNavBar = () => {
                                     </li>
                                     <li>
                                         <a
-                                            href="https://drive.google.com/file/d/1gxxtrQux9eUshb_GlnS1wqkJN1_CQfK3/view?usp=sharing"
+                                            href="https://drive.google.com/file/d/1o6gZUSg7Zz-Z-UF8prR-2GWkcLJ65GcS/view?usp=sharing"
                                             className="hover:scale-105 transition-transform py-2"
                                         >
                                             Resume
